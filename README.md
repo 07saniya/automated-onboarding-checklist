@@ -1,0 +1,1 @@
+# automated-onboarding-checklist
