@@ -310,9 +310,17 @@ app.post('/api/reset', (req, res) => {
 });
 
 // Start Server
-app.listen(PORT, () => {
-  console.log(`=================================================`);
-  console.log(`🚀 Automated Onboarding Checklist API Server running`);
-  console.log(`📍 URL: http://localhost:${PORT}`);
-  console.log(`=================================================`);
-});
+// Export Express app for Vercel
+module.exports = app;
+
+// Start server only when running locally
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`=================================================`);
+    console.log(`🚀 Automated Onboarding Checklist API Server running`);
+    console.log(`📍 URL: http://localhost:${PORT}`);
+    console.log(`=================================================`);
+  });
+}
+module.exports = app;
+
