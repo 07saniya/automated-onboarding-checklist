@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OnboardFlow - Automated Onboarding Checklist Application
 
 A modern, responsive full-stack web application designed for People Operations, HR, and Engineering Managers to automate and track the employee onboarding journey from Day 1 to Day 90.
@@ -133,3 +134,6 @@ d:/Automated onboarding checklist/
 | `GET` | `/api/history` | Get historical completed records and audit log |
 | `GET` | `/api/history/export/csv` | Download history as a CSV file |
 | `POST` | `/api/reset` | Reset data back to clean demo seed |
+=======
+# automated-onboarding-checklist
+>>>>>>> 1e71127c184e97f1a2ef89dfccb6f43dd71212da

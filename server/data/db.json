@@ -1,20 +1,6 @@
 {
   "employees": [
     {
-      "name": "Rahul Patil",
-      "email": "rahul.patil@acme.corp",
-      "department": "Engineering",
-      "role": "Backend Software Engineer",
-      "startDate": "2026-09-19",
-      "manager": "Amit Sharma",
-      "mentor": "Neha Patil",
-      "workMode": "Hybrid",
-      "hardware": "Custom Developer Workstation",
-      "status": "In Onboarding",
-      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rahul%20Patil",
-      "id": "emp-1789800742534"
-    },
-    {
       "id": "emp-101",
       "name": "Elena Rostova",
       "email": "elena.rostova@acme.corp",
@@ -73,249 +59,16 @@
   ],
   "checklists": [
     {
-      "id": "chk-emp-1789800742534",
-      "employeeId": "emp-1789800742534",
-      "employeeName": "Rahul Patil",
-      "department": "Engineering",
-      "role": "Backend Software Engineer",
-      "createdAt": "2026-09-19",
-      "updatedAt": "2026-09-19T09:30:11.087Z",
-      "tasks": [
-        {
-          "id": "task-1789800887453-1",
-          "title": "Ship & configure Custom Developer Workstation with MDM profile",
-          "category": "IT & Equipment",
-          "phase": "Pre-boarding",
-          "assigneeRole": "IT Admin",
-          "priority": "High",
-          "status": "In Progress",
-          "dueDate": "2026-09-17",
-          "description": "Ensure device is imaged with security software and dispatched to Rahul Patil.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-2",
-          "title": "Setup corporate email & Google Workspace / Microsoft 365 account",
-          "category": "IT & Equipment",
-          "phase": "Pre-boarding",
-          "assigneeRole": "IT Admin",
-          "priority": "High",
-          "status": "Completed",
-          "dueDate": "2026-09-18",
-          "description": "Create mailbox, alias, and add to company-wide distribution groups.",
-          "notes": "",
-          "completedAt": "2026-09-19T06:59:47.793Z"
-        },
-        {
-          "id": "task-1789800887453-3",
-          "title": "Send Welcome Kit and first-day logistics email",
-          "category": "General & HR",
-          "phase": "Pre-boarding",
-          "assigneeRole": "HR Manager",
-          "priority": "Medium",
-          "status": "Pending",
-          "dueDate": "2026-09-18",
-          "description": "Send reporting time, calendar invites, and welcome message.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-4",
-          "title": "Complete identity verification, tax forms & NDA signing",
-          "category": "General & HR",
-          "phase": "Day 1",
-          "assigneeRole": "New Hire",
-          "priority": "High",
-          "status": "Completed",
-          "dueDate": "2026-09-19",
-          "description": "Submit signed handbook acknowledgement and tax withholding documents.",
-          "notes": "",
-          "completedAt": "2026-09-19T09:30:11.087Z"
-        },
-        {
-          "id": "task-1789800887453-5",
-          "title": "Set up Password Manager (1Password) and 2-Factor Authentication (2FA)",
-          "category": "IT & Equipment",
-          "phase": "Day 1",
-          "assigneeRole": "New Hire",
-          "priority": "High",
-          "status": "Pending",
-          "dueDate": "2026-09-19",
-          "description": "Enforce hardware security key or authenticator app across all services.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-6",
-          "title": "Company Welcome Orientation & Culture Overview session",
-          "category": "Team & Culture",
-          "phase": "Day 1",
-          "assigneeRole": "HR Manager",
-          "priority": "Medium",
-          "status": "Pending",
-          "dueDate": "2026-09-19",
-          "description": "Attend live orientation webinar covering mission, values, and benefits.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-7",
-          "title": "Day 1 Welcome Lunch or virtual coffee with Assigned Buddy",
-          "category": "Team & Culture",
-          "phase": "Day 1",
-          "assigneeRole": "Assigned Buddy",
-          "priority": "Low",
-          "status": "Pending",
-          "dueDate": "2026-09-19",
-          "description": "Break the ice, answer immediate logistics questions, and introduce office tools.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-8",
-          "title": "Manager 1-on-1: Review 30-60-90 Day Expectations and KPIs",
-          "category": "Milestones",
-          "phase": "Week 1",
-          "assigneeRole": "Direct Manager",
-          "priority": "High",
-          "status": "Pending",
-          "dueDate": "2026-09-22",
-          "description": "Discuss role scorecard, team objectives, and immediate learning curve.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-9",
-          "title": "Join team Slack/Teams channels and calendar sync",
-          "category": "Team & Culture",
-          "phase": "Week 1",
-          "assigneeRole": "New Hire",
-          "priority": "Low",
-          "status": "Pending",
-          "dueDate": "2026-09-21",
-          "description": "Introduce yourself in the #intros channel with a brief bio and fun fact.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-10",
-          "title": "Complete Cybersecurity and Data Privacy compliance training",
-          "category": "General & HR",
-          "phase": "Week 1",
-          "assigneeRole": "New Hire",
-          "priority": "Medium",
-          "status": "Pending",
-          "dueDate": "2026-09-24",
-          "description": "Mandatory annual compliance module on phishing, GDPR, and data protection.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-11",
-          "title": "Provision GitHub / GitLab organization access and SSH keys",
-          "category": "Department Training",
-          "phase": "Day 1",
-          "assigneeRole": "IT Admin",
-          "priority": "High",
-          "status": "Pending",
-          "dueDate": "2026-09-19",
-          "description": "Grant member access to main code repositories and CI/CD pipelines.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-12",
-          "title": "Clone primary repositories and verify local development environment",
-          "category": "Department Training",
-          "phase": "Week 1",
-          "assigneeRole": "New Hire",
-          "priority": "High",
-          "status": "Pending",
-          "dueDate": "2026-09-21",
-          "description": "Run Docker containers, build codebase, and execute test suite successfully.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-13",
-          "title": "High-level System Architecture & Tech Stack deep dive with Tech Lead",
-          "category": "Department Training",
-          "phase": "Week 1",
-          "assigneeRole": "Assigned Buddy",
-          "priority": "Medium",
-          "status": "Pending",
-          "dueDate": "2026-09-23",
-          "description": "Walkthrough of microservices, database schemas, and deploy workflows.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-14",
-          "title": "Submit first 'Good First Issue' Pull Request and get code reviewed",
-          "category": "Department Training",
-          "phase": "Week 1",
-          "assigneeRole": "New Hire",
-          "priority": "Medium",
-          "status": "Pending",
-          "dueDate": "2026-09-25",
-          "description": "Complete end-to-end PR lifecycle including review, CI checks, and merge.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-15",
-          "title": "30-Day Check-in & Early Ramp Feedback Discussion",
-          "category": "Milestones",
-          "phase": "Day 30",
-          "assigneeRole": "Direct Manager",
-          "priority": "High",
-          "status": "Pending",
-          "dueDate": "2026-10-19",
-          "description": "Evaluate onboarding progress, eliminate blockers, and review early wins.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-16",
-          "title": "60-Day Independence Review & Project Milestones Assessment",
-          "category": "Milestones",
-          "phase": "Day 60",
-          "assigneeRole": "Direct Manager",
-          "priority": "Medium",
-          "status": "Pending",
-          "dueDate": "2026-11-18",
-          "description": "Review independently owned projects and cross-functional team feedback.",
-          "notes": "",
-          "completedAt": null
-        },
-        {
-          "id": "task-1789800887453-17",
-          "title": "90-Day Full Integration & Probation Completion Review",
-          "category": "Milestones",
-          "phase": "Day 90",
-          "assigneeRole": "HR Manager",
-          "priority": "High",
-          "status": "Pending",
-          "dueDate": "2026-12-18",
-          "description": "Formal onboarding conclusion, probation sign-off, and future career pathing.",
-          "notes": "",
-          "completedAt": null
-        }
-      ],
-      "status": "Active"
-    },
-    {
       "id": "chk-emp-101",
       "employeeId": "emp-101",
       "employeeName": "Elena Rostova",
       "department": "Engineering",
       "role": "Senior Full-Stack Engineer",
       "createdAt": "2026-09-13",
-      "updatedAt": "2026-09-19T06:34:37.440Z",
+      "updatedAt": "2026-09-19T11:59:05.171Z",
       "tasks": [
         {
-          "id": "task-1789799677440-1",
+          "id": "task-1789819145170-1",
           "title": "Ship & configure MacBook Pro 16\" M3 Max with MDM profile",
           "category": "IT & Equipment",
           "phase": "Pre-boarding",
@@ -325,10 +78,10 @@
           "dueDate": "2026-09-11",
           "description": "Ensure device is imaged with security software and dispatched to Elena Rostova.",
           "notes": "",
-          "completedAt": "2026-09-15T06:34:37.440Z"
+          "completedAt": "2026-09-15T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-2",
+          "id": "task-1789819145171-2",
           "title": "Setup corporate email & Google Workspace / Microsoft 365 account",
           "category": "IT & Equipment",
           "phase": "Pre-boarding",
@@ -338,10 +91,10 @@
           "dueDate": "2026-09-12",
           "description": "Create mailbox, alias, and add to company-wide distribution groups.",
           "notes": "",
-          "completedAt": "2026-09-15T06:34:37.440Z"
+          "completedAt": "2026-09-15T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-3",
+          "id": "task-1789819145171-3",
           "title": "Send Welcome Kit and first-day logistics email",
           "category": "General & HR",
           "phase": "Pre-boarding",
@@ -351,10 +104,10 @@
           "dueDate": "2026-09-12",
           "description": "Send reporting time, calendar invites, and welcome message.",
           "notes": "",
-          "completedAt": "2026-09-15T06:34:37.440Z"
+          "completedAt": "2026-09-15T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-4",
+          "id": "task-1789819145171-4",
           "title": "Complete identity verification, tax forms & NDA signing",
           "category": "General & HR",
           "phase": "Day 1",
@@ -364,10 +117,10 @@
           "dueDate": "2026-09-13",
           "description": "Submit signed handbook acknowledgement and tax withholding documents.",
           "notes": "",
-          "completedAt": "2026-09-15T06:34:37.440Z"
+          "completedAt": "2026-09-15T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-5",
+          "id": "task-1789819145171-5",
           "title": "Set up Password Manager (1Password) and 2-Factor Authentication (2FA)",
           "category": "IT & Equipment",
           "phase": "Day 1",
@@ -377,10 +130,10 @@
           "dueDate": "2026-09-13",
           "description": "Enforce hardware security key or authenticator app across all services.",
           "notes": "",
-          "completedAt": "2026-09-15T06:34:37.440Z"
+          "completedAt": "2026-09-15T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-6",
+          "id": "task-1789819145171-6",
           "title": "Company Welcome Orientation & Culture Overview session",
           "category": "Team & Culture",
           "phase": "Day 1",
@@ -390,10 +143,10 @@
           "dueDate": "2026-09-13",
           "description": "Attend live orientation webinar covering mission, values, and benefits.",
           "notes": "",
-          "completedAt": "2026-09-15T06:34:37.440Z"
+          "completedAt": "2026-09-15T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-7",
+          "id": "task-1789819145171-7",
           "title": "Day 1 Welcome Lunch or virtual coffee with Assigned Buddy",
           "category": "Team & Culture",
           "phase": "Day 1",
@@ -403,10 +156,10 @@
           "dueDate": "2026-09-13",
           "description": "Break the ice, answer immediate logistics questions, and introduce office tools.",
           "notes": "",
-          "completedAt": "2026-09-15T06:34:37.440Z"
+          "completedAt": "2026-09-15T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-8",
+          "id": "task-1789819145171-8",
           "title": "Manager 1-on-1: Review 30-60-90 Day Expectations and KPIs",
           "category": "Milestones",
           "phase": "Week 1",
@@ -419,7 +172,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-9",
+          "id": "task-1789819145171-9",
           "title": "Join team Slack/Teams channels and calendar sync",
           "category": "Team & Culture",
           "phase": "Week 1",
@@ -432,7 +185,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-10",
+          "id": "task-1789819145171-10",
           "title": "Complete Cybersecurity and Data Privacy compliance training",
           "category": "General & HR",
           "phase": "Week 1",
@@ -445,7 +198,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-11",
+          "id": "task-1789819145171-11",
           "title": "Provision GitHub / GitLab organization access and SSH keys",
           "category": "Department Training",
           "phase": "Day 1",
@@ -455,10 +208,10 @@
           "dueDate": "2026-09-13",
           "description": "Grant member access to main code repositories and CI/CD pipelines.",
           "notes": "",
-          "completedAt": "2026-09-15T06:34:37.440Z"
+          "completedAt": "2026-09-15T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-12",
+          "id": "task-1789819145171-12",
           "title": "Clone primary repositories and verify local development environment",
           "category": "Department Training",
           "phase": "Week 1",
@@ -471,7 +224,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-13",
+          "id": "task-1789819145171-13",
           "title": "High-level System Architecture & Tech Stack deep dive with Tech Lead",
           "category": "Department Training",
           "phase": "Week 1",
@@ -484,7 +237,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-14",
+          "id": "task-1789819145171-14",
           "title": "Submit first 'Good First Issue' Pull Request and get code reviewed",
           "category": "Department Training",
           "phase": "Week 1",
@@ -497,7 +250,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-15",
+          "id": "task-1789819145171-15",
           "title": "30-Day Check-in & Early Ramp Feedback Discussion",
           "category": "Milestones",
           "phase": "Day 30",
@@ -510,7 +263,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-16",
+          "id": "task-1789819145171-16",
           "title": "60-Day Independence Review & Project Milestones Assessment",
           "category": "Milestones",
           "phase": "Day 60",
@@ -523,7 +276,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-17",
+          "id": "task-1789819145171-17",
           "title": "90-Day Full Integration & Probation Completion Review",
           "category": "Milestones",
           "phase": "Day 90",
@@ -545,10 +298,10 @@
       "department": "Design",
       "role": "Lead Product Designer",
       "createdAt": "2026-09-16",
-      "updatedAt": "2026-09-19T06:34:37.440Z",
+      "updatedAt": "2026-09-19T11:59:05.171Z",
       "tasks": [
         {
-          "id": "task-1789799677440-1",
+          "id": "task-1789819145171-1",
           "title": "Ship & configure MacBook Pro 14\" M3 Pro with MDM profile",
           "category": "IT & Equipment",
           "phase": "Pre-boarding",
@@ -558,10 +311,10 @@
           "dueDate": "2026-09-14",
           "description": "Ensure device is imaged with security software and dispatched to Marcus Vance.",
           "notes": "",
-          "completedAt": "2026-09-17T06:34:37.440Z"
+          "completedAt": "2026-09-17T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-2",
+          "id": "task-1789819145171-2",
           "title": "Setup corporate email & Google Workspace / Microsoft 365 account",
           "category": "IT & Equipment",
           "phase": "Pre-boarding",
@@ -571,10 +324,10 @@
           "dueDate": "2026-09-15",
           "description": "Create mailbox, alias, and add to company-wide distribution groups.",
           "notes": "",
-          "completedAt": "2026-09-17T06:34:37.440Z"
+          "completedAt": "2026-09-17T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-3",
+          "id": "task-1789819145171-3",
           "title": "Send Welcome Kit and first-day logistics email",
           "category": "General & HR",
           "phase": "Pre-boarding",
@@ -584,10 +337,10 @@
           "dueDate": "2026-09-15",
           "description": "Send reporting time, calendar invites, and welcome message.",
           "notes": "",
-          "completedAt": "2026-09-17T06:34:37.440Z"
+          "completedAt": "2026-09-17T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-4",
+          "id": "task-1789819145171-4",
           "title": "Complete identity verification, tax forms & NDA signing",
           "category": "General & HR",
           "phase": "Day 1",
@@ -597,10 +350,10 @@
           "dueDate": "2026-09-16",
           "description": "Submit signed handbook acknowledgement and tax withholding documents.",
           "notes": "",
-          "completedAt": "2026-09-18T06:34:37.440Z"
+          "completedAt": "2026-09-18T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-5",
+          "id": "task-1789819145171-5",
           "title": "Set up Password Manager (1Password) and 2-Factor Authentication (2FA)",
           "category": "IT & Equipment",
           "phase": "Day 1",
@@ -610,10 +363,10 @@
           "dueDate": "2026-09-16",
           "description": "Enforce hardware security key or authenticator app across all services.",
           "notes": "",
-          "completedAt": "2026-09-18T06:34:37.440Z"
+          "completedAt": "2026-09-18T11:59:05.171Z"
         },
         {
-          "id": "task-1789799677440-6",
+          "id": "task-1789819145171-6",
           "title": "Company Welcome Orientation & Culture Overview session",
           "category": "Team & Culture",
           "phase": "Day 1",
@@ -626,7 +379,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-7",
+          "id": "task-1789819145171-7",
           "title": "Day 1 Welcome Lunch or virtual coffee with Assigned Buddy",
           "category": "Team & Culture",
           "phase": "Day 1",
@@ -639,7 +392,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-8",
+          "id": "task-1789819145171-8",
           "title": "Manager 1-on-1: Review 30-60-90 Day Expectations and KPIs",
           "category": "Milestones",
           "phase": "Week 1",
@@ -652,7 +405,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-9",
+          "id": "task-1789819145171-9",
           "title": "Join team Slack/Teams channels and calendar sync",
           "category": "Team & Culture",
           "phase": "Week 1",
@@ -665,7 +418,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-10",
+          "id": "task-1789819145171-10",
           "title": "Complete Cybersecurity and Data Privacy compliance training",
           "category": "General & HR",
           "phase": "Week 1",
@@ -678,7 +431,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-11",
+          "id": "task-1789819145171-11",
           "title": "Figma Enterprise Seat & Design System libraries onboarding",
           "category": "Department Training",
           "phase": "Day 1",
@@ -691,7 +444,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-12",
+          "id": "task-1789819145171-12",
           "title": "Design System Component Audit & UX Guidelines walkthrough",
           "category": "Department Training",
           "phase": "Week 1",
@@ -704,7 +457,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-13",
+          "id": "task-1789819145171-13",
           "title": "Participate in first weekly Design Critique session",
           "category": "Department Training",
           "phase": "Week 1",
@@ -717,7 +470,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-14",
+          "id": "task-1789819145171-14",
           "title": "30-Day Check-in & Early Ramp Feedback Discussion",
           "category": "Milestones",
           "phase": "Day 30",
@@ -730,7 +483,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-15",
+          "id": "task-1789819145171-15",
           "title": "60-Day Independence Review & Project Milestones Assessment",
           "category": "Milestones",
           "phase": "Day 60",
@@ -743,7 +496,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-16",
+          "id": "task-1789819145171-16",
           "title": "90-Day Full Integration & Probation Completion Review",
           "category": "Milestones",
           "phase": "Day 90",
@@ -765,10 +518,10 @@
       "department": "Sales",
       "role": "Account Executive (Enterprise)",
       "createdAt": "2026-09-18",
-      "updatedAt": "2026-09-19T06:34:37.440Z",
+      "updatedAt": "2026-09-19T11:59:05.172Z",
       "tasks": [
         {
-          "id": "task-1789799677440-1",
+          "id": "task-1789819145171-1",
           "title": "Ship & configure Dell XPS 15 with MDM profile",
           "category": "IT & Equipment",
           "phase": "Pre-boarding",
@@ -778,10 +531,10 @@
           "dueDate": "2026-09-16",
           "description": "Ensure device is imaged with security software and dispatched to Priya Sharma.",
           "notes": "",
-          "completedAt": "2026-09-18T06:34:37.440Z"
+          "completedAt": "2026-09-18T11:59:05.172Z"
         },
         {
-          "id": "task-1789799677440-2",
+          "id": "task-1789819145171-2",
           "title": "Setup corporate email & Google Workspace / Microsoft 365 account",
           "category": "IT & Equipment",
           "phase": "Pre-boarding",
@@ -791,10 +544,10 @@
           "dueDate": "2026-09-17",
           "description": "Create mailbox, alias, and add to company-wide distribution groups.",
           "notes": "",
-          "completedAt": "2026-09-18T06:34:37.440Z"
+          "completedAt": "2026-09-18T11:59:05.172Z"
         },
         {
-          "id": "task-1789799677440-3",
+          "id": "task-1789819145171-3",
           "title": "Send Welcome Kit and first-day logistics email",
           "category": "General & HR",
           "phase": "Pre-boarding",
@@ -807,7 +560,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-4",
+          "id": "task-1789819145171-4",
           "title": "Complete identity verification, tax forms & NDA signing",
           "category": "General & HR",
           "phase": "Day 1",
@@ -820,7 +573,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-5",
+          "id": "task-1789819145171-5",
           "title": "Set up Password Manager (1Password) and 2-Factor Authentication (2FA)",
           "category": "IT & Equipment",
           "phase": "Day 1",
@@ -833,7 +586,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-6",
+          "id": "task-1789819145171-6",
           "title": "Company Welcome Orientation & Culture Overview session",
           "category": "Team & Culture",
           "phase": "Day 1",
@@ -846,7 +599,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-7",
+          "id": "task-1789819145171-7",
           "title": "Day 1 Welcome Lunch or virtual coffee with Assigned Buddy",
           "category": "Team & Culture",
           "phase": "Day 1",
@@ -859,7 +612,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-8",
+          "id": "task-1789819145171-8",
           "title": "Manager 1-on-1: Review 30-60-90 Day Expectations and KPIs",
           "category": "Milestones",
           "phase": "Week 1",
@@ -872,7 +625,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-9",
+          "id": "task-1789819145171-9",
           "title": "Join team Slack/Teams channels and calendar sync",
           "category": "Team & Culture",
           "phase": "Week 1",
@@ -885,7 +638,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-10",
+          "id": "task-1789819145171-10",
           "title": "Complete Cybersecurity and Data Privacy compliance training",
           "category": "General & HR",
           "phase": "Week 1",
@@ -898,7 +651,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-11",
+          "id": "task-1789819145171-11",
           "title": "CRM & Sales Stack Provisioning (Salesforce, HubSpot, Gong)",
           "category": "Department Training",
           "phase": "Day 1",
@@ -911,7 +664,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-12",
+          "id": "task-1789819145171-12",
           "title": "Product Demo Mastery & Competitor Battlecards review",
           "category": "Department Training",
           "phase": "Week 1",
@@ -924,7 +677,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-13",
+          "id": "task-1789819145171-13",
           "title": "Shadow 3 live sales calls with Senior Account Executive",
           "category": "Department Training",
           "phase": "Week 1",
@@ -937,7 +690,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-14",
+          "id": "task-1789819145171-14",
           "title": "Deliver mock pitch & demo certification to Sales Manager",
           "category": "Department Training",
           "phase": "Day 30",
@@ -950,7 +703,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-15",
+          "id": "task-1789819145171-15",
           "title": "30-Day Check-in & Early Ramp Feedback Discussion",
           "category": "Milestones",
           "phase": "Day 30",
@@ -963,7 +716,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-16",
+          "id": "task-1789819145171-16",
           "title": "60-Day Independence Review & Project Milestones Assessment",
           "category": "Milestones",
           "phase": "Day 60",
@@ -976,7 +729,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-17",
+          "id": "task-1789819145171-17",
           "title": "90-Day Full Integration & Probation Completion Review",
           "category": "Milestones",
           "phase": "Day 90",
@@ -998,10 +751,10 @@
       "department": "Human Resources",
       "role": "Talent Acquisition Specialist",
       "createdAt": "2026-09-22",
-      "updatedAt": "2026-09-19T06:34:37.440Z",
+      "updatedAt": "2026-09-19T11:59:05.172Z",
       "tasks": [
         {
-          "id": "task-1789799677440-1",
+          "id": "task-1789819145172-1",
           "title": "Ship & configure ThinkPad X1 Carbon with MDM profile",
           "category": "IT & Equipment",
           "phase": "Pre-boarding",
@@ -1014,7 +767,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-2",
+          "id": "task-1789819145172-2",
           "title": "Setup corporate email & Google Workspace / Microsoft 365 account",
           "category": "IT & Equipment",
           "phase": "Pre-boarding",
@@ -1027,7 +780,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-3",
+          "id": "task-1789819145172-3",
           "title": "Send Welcome Kit and first-day logistics email",
           "category": "General & HR",
           "phase": "Pre-boarding",
@@ -1040,7 +793,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-4",
+          "id": "task-1789819145172-4",
           "title": "Complete identity verification, tax forms & NDA signing",
           "category": "General & HR",
           "phase": "Day 1",
@@ -1053,7 +806,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-5",
+          "id": "task-1789819145172-5",
           "title": "Set up Password Manager (1Password) and 2-Factor Authentication (2FA)",
           "category": "IT & Equipment",
           "phase": "Day 1",
@@ -1066,7 +819,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-6",
+          "id": "task-1789819145172-6",
           "title": "Company Welcome Orientation & Culture Overview session",
           "category": "Team & Culture",
           "phase": "Day 1",
@@ -1079,7 +832,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-7",
+          "id": "task-1789819145172-7",
           "title": "Day 1 Welcome Lunch or virtual coffee with Assigned Buddy",
           "category": "Team & Culture",
           "phase": "Day 1",
@@ -1092,7 +845,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-8",
+          "id": "task-1789819145172-8",
           "title": "Manager 1-on-1: Review 30-60-90 Day Expectations and KPIs",
           "category": "Milestones",
           "phase": "Week 1",
@@ -1105,7 +858,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-9",
+          "id": "task-1789819145172-9",
           "title": "Join team Slack/Teams channels and calendar sync",
           "category": "Team & Culture",
           "phase": "Week 1",
@@ -1118,7 +871,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-10",
+          "id": "task-1789819145172-10",
           "title": "Complete Cybersecurity and Data Privacy compliance training",
           "category": "General & HR",
           "phase": "Week 1",
@@ -1131,7 +884,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-11",
+          "id": "task-1789819145172-11",
           "title": "Tooling & SaaS license provisioning (Notion, Asana/Jira, Google Drive)",
           "category": "Department Training",
           "phase": "Day 1",
@@ -1144,7 +897,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-12",
+          "id": "task-1789819145172-12",
           "title": "Department standard operating procedures (SOP) review",
           "category": "Department Training",
           "phase": "Week 1",
@@ -1157,7 +910,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-13",
+          "id": "task-1789819145172-13",
           "title": "30-Day Check-in & Early Ramp Feedback Discussion",
           "category": "Milestones",
           "phase": "Day 30",
@@ -1170,7 +923,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-14",
+          "id": "task-1789819145172-14",
           "title": "60-Day Independence Review & Project Milestones Assessment",
           "category": "Milestones",
           "phase": "Day 60",
@@ -1183,7 +936,7 @@
           "completedAt": null
         },
         {
-          "id": "task-1789799677440-15",
+          "id": "task-1789819145172-15",
           "title": "90-Day Full Integration & Probation Completion Review",
           "category": "Milestones",
           "phase": "Day 90",
@@ -1233,68 +986,20 @@
   ],
   "auditLog": [
     {
-      "id": "log-1789810211087",
-      "timestamp": "2026-09-19T09:30:11.087Z",
-      "action": "TASK_UPDATED",
-      "details": "Task 'Complete identity verification, tax forms & NDA signing' for Rahul Patil set to Completed"
-    },
-    {
-      "id": "log-1789810209123",
-      "timestamp": "2026-09-19T09:30:09.124Z",
-      "action": "TASK_UPDATED",
-      "details": "Task 'Complete identity verification, tax forms & NDA signing' for Rahul Patil set to In Progress"
-    },
-    {
-      "id": "log-1789801187793",
-      "timestamp": "2026-09-19T06:59:47.793Z",
-      "action": "TASK_UPDATED",
-      "details": "Task 'Setup corporate email & Google Workspace / Microsoft 365 account' for Rahul Patil set to Completed"
-    },
-    {
-      "id": "log-1789801183868",
-      "timestamp": "2026-09-19T06:59:43.868Z",
-      "action": "TASK_UPDATED",
-      "details": "Task 'Setup corporate email & Google Workspace / Microsoft 365 account' for Rahul Patil set to In Progress"
-    },
-    {
-      "id": "log-1789801013144",
-      "timestamp": "2026-09-19T06:56:53.144Z",
-      "action": "TASK_UPDATED",
-      "details": "Task 'Ship & configure Custom Developer Workstation with MDM profile' for Rahul Patil set to In Progress"
-    },
-    {
-      "id": "log-1789800918833",
-      "timestamp": "2026-09-19T06:55:18.833Z",
-      "action": "CHECKLIST_GENERATED",
-      "details": "Generated checklist for Rahul Patil (17 tasks)"
-    },
-    {
-      "id": "log-1789800742548",
-      "timestamp": "2026-09-19T06:52:22.548Z",
-      "action": "CHECKLIST_GENERATED",
-      "details": "Generated checklist for Rahul Patil (17 tasks)"
-    },
-    {
-      "id": "log-1789800742534",
-      "timestamp": "2026-09-19T06:52:22.534Z",
-      "action": "EMPLOYEE_ADDED",
-      "details": "Rahul Patil added as Backend Software Engineer in Engineering"
-    },
-    {
       "id": "log-1",
-      "timestamp": "2026-09-19T05:11:17.440Z",
+      "timestamp": "2026-09-19T10:35:45.172Z",
       "action": "TASK_COMPLETED",
       "details": "Elena Rostova completed 'Set up Password Manager (1Password) and 2-Factor Authentication'"
     },
     {
       "id": "log-2",
-      "timestamp": "2026-09-19T02:24:37.440Z",
+      "timestamp": "2026-09-19T07:49:05.172Z",
       "action": "CHECKLIST_GENERATED",
       "details": "Automated checklist generated for Priya Sharma (Sales)"
     },
     {
       "id": "log-3",
-      "timestamp": "2026-09-18T22:47:57.440Z",
+      "timestamp": "2026-09-19T04:12:25.172Z",
       "action": "EMPLOYEE_ADDED",
       "details": "David Kim registered in Human Resources department"
     }
