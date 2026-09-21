@@ -1,6 +1,6 @@
 import { Employee, Checklist, ChecklistTask, HistoryItem, DashboardStats, AuditLog } from '../types';
 
-const API_BASE = '/api';
+const API_BASE = 'https://onboarding-api-07saniya.vercel.app/api';
 
 export async function fetchStats(): Promise<DashboardStats> {
   const res = await fetch(`${API_BASE}/stats`);

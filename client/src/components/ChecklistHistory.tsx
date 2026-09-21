@@ -51,7 +51,7 @@ export const ChecklistHistory: React.FC<ChecklistHistoryProps> = ({
 
   // Export to CSV
   const handleExportCsv = () => {
-    window.open('/api/history/export/csv', '_blank');
+    window.open('https://onboarding-api-07saniya.vercel.app/api/history/export/csv', '_blank');
   };
 
   // Print Compliance Certificate / Report
