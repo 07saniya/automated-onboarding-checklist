@@ -96,15 +96,30 @@ export async function fetchTasks(filters?: {
   return data.data;
 }
 
-export async function updateTask(taskId: string, update: Partial<ChecklistTask>): Promise<ChecklistTask> {
-  const res = await fetch(`${API_BASE}/tasks/${taskId}`, {
-    method: 'PATCH',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(update)
-  });
-  const data = await res.json();
-  if (!data.success) throw new Error(data.error || 'Failed to update task');
-  return data.data;
+export async function updateTask(
+  taskId: string,
+  update: Partial<ChecklistTask>
+): Promise<ChecklistTask> {
+  try {
+    const res = await fetch(`${API_BASE}/tasks/${taskId}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(update),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok || !data.success) {
+      throw new Error(data.error || 'Failed to update task');
+    }
+
+    return data.data;
+  } catch (error: any) {
+    console.error('Update task error:', error);
+    throw new Error(error.message || 'Failed to update task');
+  }
 }
 
 export async function addTask(employeeId: string, taskData: Partial<ChecklistTask>): Promise<ChecklistTask> {

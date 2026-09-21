@@ -94,11 +94,18 @@ export default function App() {
     await loadAllData();
   };
 
-  const handleUpdateTask = async (taskId: string, update: Partial<ChecklistTask>) => {
-    await updateTask(taskId, update);
-    await loadAllData();
-  };
+  const handleUpdateTask = async (
+  taskId: string,
+  update: Partial<ChecklistTask>
+) => {
+  const updatedTask = await updateTask(taskId, update);
 
+  setTasks((currentTasks) =>
+    currentTasks.map((task) =>
+      task.id === taskId ? updatedTask : task
+    )
+  );
+};
   const handleAddTask = async (empId: string, taskData: any) => {
     await addTask(empId, taskData);
     await loadAllData();

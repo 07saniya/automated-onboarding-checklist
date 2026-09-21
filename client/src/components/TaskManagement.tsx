@@ -78,28 +78,40 @@ export const TaskManagement: React.FC<TaskManagementProps> = ({
   const completionPercentage = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
 
   const handleStatusToggle = async (task: ChecklistTask) => {
-    let nextStatus: TaskStatus = 'In Progress';
-    if (task.status === 'Pending') nextStatus = 'In Progress';
-    else if (task.status === 'In Progress') nextStatus = 'Completed';
-    else if (task.status === 'Completed') nextStatus = 'Pending';
+  let nextStatus: TaskStatus;
 
-    try {
-      await onUpdateTask(task.id, { status: nextStatus });
-      if (nextStatus === 'Completed') {
-        // Trigger small celebration confetti
-        try {
-          confetti({
-            particleCount: 35,
-            spread: 50,
-            origin: { y: 0.7 }
-          });
-        } catch (e) {}
+  if (task.status === 'Pending') {
+    nextStatus = 'In Progress';
+  } else if (task.status === 'In Progress') {
+    nextStatus = 'Completed';
+  } else {
+    nextStatus = 'Pending';
+  }
+
+  try {
+    // Update the task through the backend
+    await onUpdateTask(task.id, { status: nextStatus });
+
+    console.log(
+      `Task ${task.id} changed from ${task.status} to ${nextStatus}`
+    );
+
+    if (nextStatus === 'Completed') {
+      try {
+        confetti({
+          particleCount: 35,
+          spread: 50,
+          origin: { y: 0.7 }
+        });
+      } catch (e) {
+        // Confetti is optional
       }
-    } catch (err: any) {
-      alert(`Error updating task: ${err.message}`);
     }
-  };
-
+  } catch (err: any) {
+    console.error('Error updating task:', err);
+    alert(`Error updating task: ${err.message}`);
+  }
+};
   const handleSaveNote = async (taskId: string) => {
     try {
       await onUpdateTask(taskId, { notes: noteText });
